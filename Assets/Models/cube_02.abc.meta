@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 054d220dfa69bf84db732afffefd5214
-timeCreated: 1523291875
+guid: a1f0e70f53d65074e849556b30caab03
+timeCreated: 1523291633
 licenseType: Free
 ScriptedImporter:
   userData: 
@@ -24,9 +24,9 @@ ScriptedImporter:
     importPolyMesh: 1
     importPoints: 1
   abcStartTime: 0.041666666666666664
-  abcEndTime: 0.041666666666666664
+  abcEndTime: 1.6666666666666667
   startTime: 0.041666666666666664
-  endTime: 0.041666666666666664
+  endTime: 1.6666666666666667
   importWarning: 
   varyingTopologyMeshNames: []
   splittingMeshNames: []

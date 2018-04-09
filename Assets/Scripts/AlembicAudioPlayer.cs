@@ -6,9 +6,11 @@ using UTJ.Alembic;
 public class AlembicAudioPlayer : MonoBehaviour {
 
     public AudioSource audio;
-    public AlembicStreamPlayer alembic;
+    public AlembicStreamPlayer[] alembic;
 
 	void Update () {
-        alembic.currentTime = audio.time;
+        for (int i = 0; i < alembic.Length; i++) {
+            alembic[i].currentTime = audio.time;
+        }
 	}
 }
