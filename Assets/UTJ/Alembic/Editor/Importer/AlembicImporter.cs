@@ -165,10 +165,10 @@ namespace UTJ.Alembic
                 {
                     if (m_defaultMaterial == null)
                     {
-                        m_defaultMaterial = new Material(Shader.Find("Alembic/Standard"));
-                        m_defaultMaterial.hideFlags = HideFlags.NotEditable;
-                        m_defaultMaterial.name = "Default Material";
-                        Add("Default Material", m_defaultMaterial);
+                        m_defaultMaterial = (Material) AssetDatabase.LoadAssetAtPath("Assets/Materials/NewAlembic_mtl.mat", typeof(Material)); //new Material(Shader.Find("Alembic/Standard"));
+                        //m_defaultMaterial.hideFlags = HideFlags.NotEditable;
+                        //m_defaultMaterial.name = "Default Material";
+                        //Add("Default Material", m_defaultMaterial);
                     }
                     return m_defaultMaterial;
                 }
