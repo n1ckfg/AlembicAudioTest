@@ -10,7 +10,7 @@ public class AlembicAudioPlayer : MonoBehaviour {
 
 	void Update () {
         for (int i = 0; i < alembic.Length; i++) {
-            alembic[i].currentTime = audio.time;
+            if (alembic[i] != null) alembic[i].currentTime = audio.time;
         }
 	}
 }
