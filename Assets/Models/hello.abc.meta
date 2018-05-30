@@ -1,8 +1,149 @@
 fileFormatVersion: 2
 guid: 69cd4c242bc4ba840907a3b27d3e9eb7
-timeCreated: 1522208951
-licenseType: Free
 ScriptedImporter:
+  fileIDToRecycleName:
+    100000: hello/hello
+    100002: hello/hello/Camera
+    100004: hello/hello/Camera/CameraShape
+    100006: hello/hello/crv_GP_Layer_15_mesh_002
+    100008: hello/hello/crv_GP_Layer_15_mesh_002/crv_GP_Layer_15_mesh_002Shape
+    100010: hello/hello/crv_GP_Layer_21_mesh
+    100012: hello/hello/crv_GP_Layer_21_mesh/crv_GP_Layer_21_meshShape
+    100014: hello/hello/crv_GP_Layer_31_mesh
+    100016: hello/hello/crv_GP_Layer_31_mesh/crv_GP_Layer_31_meshShape
+    100018: hello/hello/crv_GP_Layer_40_mesh
+    100020: hello/hello/crv_GP_Layer_40_mesh/crv_GP_Layer_40_meshShape
+    100022: hello/hello/crv_GP_Layer_51_mesh
+    100024: hello/hello/crv_GP_Layer_51_mesh/crv_GP_Layer_51_meshShape
+    100026: hello/hello/crv_GP_Layer_62_mesh
+    100028: hello/hello/crv_GP_Layer_62_mesh/crv_GP_Layer_62_meshShape
+    100030: hello/hello/crv_GP_Layer_72_mesh
+    100032: hello/hello/crv_GP_Layer_72_mesh/crv_GP_Layer_72_meshShape
+    100034: hello/hello/crv_GP_Layer_79_mesh
+    100036: hello/hello/crv_GP_Layer_79_mesh/crv_GP_Layer_79_meshShape
+    100038: hello/hello/crv_GP_Layer_97_mesh
+    100040: hello/hello/crv_GP_Layer_97_mesh/crv_GP_Layer_97_meshShape
+    100042: hello/hello/crv_GP_Layer_106_mesh
+    100044: hello/hello/crv_GP_Layer_106_mesh/crv_GP_Layer_106_meshShape
+    100046: hello/hello/crv_GP_Layer_109_mesh
+    100048: hello/hello/crv_GP_Layer_109_mesh/crv_GP_Layer_109_meshShape
+    100050: hello/hello/crv_GP_Layer_116_mesh
+    100052: hello/hello/crv_GP_Layer_116_mesh/crv_GP_Layer_116_meshShape
+    100054: hello/hello/crv_GP_Layer_125_mesh
+    100056: hello/hello/crv_GP_Layer_125_mesh/crv_GP_Layer_125_meshShape
+    100058: hello/hello/crv_GP_Layer_131_mesh
+    100060: hello/hello/crv_GP_Layer_131_mesh/crv_GP_Layer_131_meshShape
+    100062: hello/hello/crv_GP_Layer_141_mesh
+    100064: hello/hello/crv_GP_Layer_141_mesh/crv_GP_Layer_141_meshShape
+    100066: hello/hello/crv_GP_Layer_148_mesh
+    100068: hello/hello/crv_GP_Layer_148_mesh/crv_GP_Layer_148_meshShape
+    100070: hello/hello/Empty
+    100072: hello/hello/Empty/crv_GP_Layer_-2_mesh
+    100074: hello/hello/Empty/crv_GP_Layer_-2_mesh/crv_GP_Layer_-2_meshShape
+    100076: hello/hello/Empty/crv_GP_Layer_0_mesh
+    100078: hello/hello/Empty/crv_GP_Layer_0_mesh/crv_GP_Layer_0_meshShape
+    400000: hello/hello/Transform
+    400002: hello/hello/Camera/Transform
+    400004: hello/hello/Camera/CameraShape/Transform
+    400006: hello/hello/crv_GP_Layer_15_mesh_002/Transform
+    400008: hello/hello/crv_GP_Layer_15_mesh_002/crv_GP_Layer_15_mesh_002Shape/Transform
+    400010: hello/hello/crv_GP_Layer_21_mesh/Transform
+    400012: hello/hello/crv_GP_Layer_21_mesh/crv_GP_Layer_21_meshShape/Transform
+    400014: hello/hello/crv_GP_Layer_31_mesh/Transform
+    400016: hello/hello/crv_GP_Layer_31_mesh/crv_GP_Layer_31_meshShape/Transform
+    400018: hello/hello/crv_GP_Layer_40_mesh/Transform
+    400020: hello/hello/crv_GP_Layer_40_mesh/crv_GP_Layer_40_meshShape/Transform
+    400022: hello/hello/crv_GP_Layer_51_mesh/Transform
+    400024: hello/hello/crv_GP_Layer_51_mesh/crv_GP_Layer_51_meshShape/Transform
+    400026: hello/hello/crv_GP_Layer_62_mesh/Transform
+    400028: hello/hello/crv_GP_Layer_62_mesh/crv_GP_Layer_62_meshShape/Transform
+    400030: hello/hello/crv_GP_Layer_72_mesh/Transform
+    400032: hello/hello/crv_GP_Layer_72_mesh/crv_GP_Layer_72_meshShape/Transform
+    400034: hello/hello/crv_GP_Layer_79_mesh/Transform
+    400036: hello/hello/crv_GP_Layer_79_mesh/crv_GP_Layer_79_meshShape/Transform
+    400038: hello/hello/crv_GP_Layer_97_mesh/Transform
+    400040: hello/hello/crv_GP_Layer_97_mesh/crv_GP_Layer_97_meshShape/Transform
+    400042: hello/hello/crv_GP_Layer_106_mesh/Transform
+    400044: hello/hello/crv_GP_Layer_106_mesh/crv_GP_Layer_106_meshShape/Transform
+    400046: hello/hello/crv_GP_Layer_109_mesh/Transform
+    400048: hello/hello/crv_GP_Layer_109_mesh/crv_GP_Layer_109_meshShape/Transform
+    400050: hello/hello/crv_GP_Layer_116_mesh/Transform
+    400052: hello/hello/crv_GP_Layer_116_mesh/crv_GP_Layer_116_meshShape/Transform
+    400054: hello/hello/crv_GP_Layer_125_mesh/Transform
+    400056: hello/hello/crv_GP_Layer_125_mesh/crv_GP_Layer_125_meshShape/Transform
+    400058: hello/hello/crv_GP_Layer_131_mesh/Transform
+    400060: hello/hello/crv_GP_Layer_131_mesh/crv_GP_Layer_131_meshShape/Transform
+    400062: hello/hello/crv_GP_Layer_141_mesh/Transform
+    400064: hello/hello/crv_GP_Layer_141_mesh/crv_GP_Layer_141_meshShape/Transform
+    400066: hello/hello/crv_GP_Layer_148_mesh/Transform
+    400068: hello/hello/crv_GP_Layer_148_mesh/crv_GP_Layer_148_meshShape/Transform
+    400070: hello/hello/Empty/Transform
+    400072: hello/hello/Empty/crv_GP_Layer_-2_mesh/Transform
+    400074: hello/hello/Empty/crv_GP_Layer_-2_mesh/crv_GP_Layer_-2_meshShape/Transform
+    400076: hello/hello/Empty/crv_GP_Layer_0_mesh/Transform
+    400078: hello/hello/Empty/crv_GP_Layer_0_mesh/crv_GP_Layer_0_meshShape/Transform
+    2000000: hello/hello/Camera/CameraShape/Camera
+    2100000: Default Material
+    2300000: hello/hello/crv_GP_Layer_15_mesh_002/crv_GP_Layer_15_mesh_002Shape/MeshRenderer
+    2300002: hello/hello/crv_GP_Layer_21_mesh/crv_GP_Layer_21_meshShape/MeshRenderer
+    2300004: hello/hello/crv_GP_Layer_31_mesh/crv_GP_Layer_31_meshShape/MeshRenderer
+    2300006: hello/hello/crv_GP_Layer_40_mesh/crv_GP_Layer_40_meshShape/MeshRenderer
+    2300008: hello/hello/crv_GP_Layer_51_mesh/crv_GP_Layer_51_meshShape/MeshRenderer
+    2300010: hello/hello/crv_GP_Layer_62_mesh/crv_GP_Layer_62_meshShape/MeshRenderer
+    2300012: hello/hello/crv_GP_Layer_72_mesh/crv_GP_Layer_72_meshShape/MeshRenderer
+    2300014: hello/hello/crv_GP_Layer_79_mesh/crv_GP_Layer_79_meshShape/MeshRenderer
+    2300016: hello/hello/crv_GP_Layer_97_mesh/crv_GP_Layer_97_meshShape/MeshRenderer
+    2300018: hello/hello/crv_GP_Layer_106_mesh/crv_GP_Layer_106_meshShape/MeshRenderer
+    2300020: hello/hello/crv_GP_Layer_109_mesh/crv_GP_Layer_109_meshShape/MeshRenderer
+    2300022: hello/hello/crv_GP_Layer_116_mesh/crv_GP_Layer_116_meshShape/MeshRenderer
+    2300024: hello/hello/crv_GP_Layer_125_mesh/crv_GP_Layer_125_meshShape/MeshRenderer
+    2300026: hello/hello/crv_GP_Layer_131_mesh/crv_GP_Layer_131_meshShape/MeshRenderer
+    2300028: hello/hello/crv_GP_Layer_141_mesh/crv_GP_Layer_141_meshShape/MeshRenderer
+    2300030: hello/hello/crv_GP_Layer_148_mesh/crv_GP_Layer_148_meshShape/MeshRenderer
+    2300032: hello/hello/Empty/crv_GP_Layer_-2_mesh/crv_GP_Layer_-2_meshShape/MeshRenderer
+    2300034: hello/hello/Empty/crv_GP_Layer_0_mesh/crv_GP_Layer_0_meshShape/MeshRenderer
+    3300000: hello/hello/crv_GP_Layer_15_mesh_002/crv_GP_Layer_15_mesh_002Shape/MeshFilter
+    3300002: hello/hello/crv_GP_Layer_21_mesh/crv_GP_Layer_21_meshShape/MeshFilter
+    3300004: hello/hello/crv_GP_Layer_31_mesh/crv_GP_Layer_31_meshShape/MeshFilter
+    3300006: hello/hello/crv_GP_Layer_40_mesh/crv_GP_Layer_40_meshShape/MeshFilter
+    3300008: hello/hello/crv_GP_Layer_51_mesh/crv_GP_Layer_51_meshShape/MeshFilter
+    3300010: hello/hello/crv_GP_Layer_62_mesh/crv_GP_Layer_62_meshShape/MeshFilter
+    3300012: hello/hello/crv_GP_Layer_72_mesh/crv_GP_Layer_72_meshShape/MeshFilter
+    3300014: hello/hello/crv_GP_Layer_79_mesh/crv_GP_Layer_79_meshShape/MeshFilter
+    3300016: hello/hello/crv_GP_Layer_97_mesh/crv_GP_Layer_97_meshShape/MeshFilter
+    3300018: hello/hello/crv_GP_Layer_106_mesh/crv_GP_Layer_106_meshShape/MeshFilter
+    3300020: hello/hello/crv_GP_Layer_109_mesh/crv_GP_Layer_109_meshShape/MeshFilter
+    3300022: hello/hello/crv_GP_Layer_116_mesh/crv_GP_Layer_116_meshShape/MeshFilter
+    3300024: hello/hello/crv_GP_Layer_125_mesh/crv_GP_Layer_125_meshShape/MeshFilter
+    3300026: hello/hello/crv_GP_Layer_131_mesh/crv_GP_Layer_131_meshShape/MeshFilter
+    3300028: hello/hello/crv_GP_Layer_141_mesh/crv_GP_Layer_141_meshShape/MeshFilter
+    3300030: hello/hello/crv_GP_Layer_148_mesh/crv_GP_Layer_148_meshShape/MeshFilter
+    3300032: hello/hello/Empty/crv_GP_Layer_-2_mesh/crv_GP_Layer_-2_meshShape/MeshFilter
+    3300034: hello/hello/Empty/crv_GP_Layer_0_mesh/crv_GP_Layer_0_meshShape/MeshFilter
+    4300000: /crv_GP_Layer_148_mesh/crv_GP_Layer_148_meshShape
+    4300002: /crv_GP_Layer_141_mesh/crv_GP_Layer_141_meshShape
+    4300004: /crv_GP_Layer_131_mesh/crv_GP_Layer_131_meshShape
+    4300006: /crv_GP_Layer_125_mesh/crv_GP_Layer_125_meshShape
+    4300008: /crv_GP_Layer_116_mesh/crv_GP_Layer_116_meshShape
+    4300010: /crv_GP_Layer_109_mesh/crv_GP_Layer_109_meshShape
+    4300012: /crv_GP_Layer_106_mesh/crv_GP_Layer_106_meshShape
+    4300014: /crv_GP_Layer_97_mesh/crv_GP_Layer_97_meshShape
+    4300016: /crv_GP_Layer_79_mesh/crv_GP_Layer_79_meshShape
+    4300018: /crv_GP_Layer_72_mesh/crv_GP_Layer_72_meshShape
+    4300020: /crv_GP_Layer_62_mesh/crv_GP_Layer_62_meshShape
+    4300022: /crv_GP_Layer_51_mesh/crv_GP_Layer_51_meshShape
+    4300024: /crv_GP_Layer_40_mesh/crv_GP_Layer_40_meshShape
+    4300026: /crv_GP_Layer_31_mesh/crv_GP_Layer_31_meshShape
+    4300028: /crv_GP_Layer_21_mesh/crv_GP_Layer_21_meshShape
+    4300030: /crv_GP_Layer_15_mesh_002/crv_GP_Layer_15_mesh_002Shape
+    4300032: /Empty/crv_GP_Layer_0_mesh/crv_GP_Layer_0_meshShape
+    4300034: /Empty/crv_GP_Layer_-2_mesh/crv_GP_Layer_-2_meshShape
+    7400000: Default Animation
+    7400002: hello_Frames
+    11400000: hello/hello/MonoBehaviour-UTJ.Alembic.AlembicStreamPlayer
+    11400002: hello_ABCDesc
+    100100000: hello
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -13,16 +154,17 @@ ScriptedImporter:
     cameraAspectRatio: 2
     scaleFactor: 1
     swapHandedness: 1
-    swapFaceWinding: 0
+    flipFaces: 0
     turnQuadEdges: 0
     interpolateSamples: 1
     importPointPolygon: 1
     importLinePolygon: 1
     importTrianglePolygon: 1
     importXform: 1
-    importCamera: 0
-    importPolyMesh: 1
+    importCameras: 1
+    importMeshes: 1
     importPoints: 1
+    importVisibility: 1
   abcStartTime: 0.041666666666666664
   abcEndTime: 6.833333333333333
   startTime: 0.041666666666666664

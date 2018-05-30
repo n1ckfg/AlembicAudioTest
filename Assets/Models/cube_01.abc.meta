@@ -1,8 +1,23 @@
 fileFormatVersion: 2
 guid: 6cc5755b6efb3914e8a07dbf751912fe
-timeCreated: 1523291633
-licenseType: Free
 ScriptedImporter:
+  fileIDToRecycleName:
+    100000: cube_01/cube_01
+    100002: cube_01/cube_01/pCube1
+    100004: cube_01/cube_01/pCube1/pCubeShape1
+    400000: cube_01/cube_01/Transform
+    400002: cube_01/cube_01/pCube1/Transform
+    400004: cube_01/cube_01/pCube1/pCubeShape1/Transform
+    2100000: Default Material
+    2300000: cube_01/cube_01/pCube1/pCubeShape1/MeshRenderer
+    3300000: cube_01/cube_01/pCube1/pCubeShape1/MeshFilter
+    4300000: /pCube1/pCubeShape1
+    7400000: Default Animation
+    7400002: cube_01_Frames
+    11400000: cube_01/cube_01/MonoBehaviour-UTJ.Alembic.AlembicStreamPlayer
+    11400002: cube_01_ABCDesc
+    100100000: cube_01
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -13,16 +28,17 @@ ScriptedImporter:
     cameraAspectRatio: 2
     scaleFactor: 1
     swapHandedness: 1
-    swapFaceWinding: 0
+    flipFaces: 0
     turnQuadEdges: 0
     interpolateSamples: 1
     importPointPolygon: 1
     importLinePolygon: 1
     importTrianglePolygon: 1
     importXform: 1
-    importCamera: 0
-    importPolyMesh: 1
+    importCameras: 1
+    importMeshes: 1
     importPoints: 1
+    importVisibility: 1
   abcStartTime: 0.041666666666666664
   abcEndTime: 1.6666666666666667
   startTime: 0.041666666666666664
