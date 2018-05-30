@@ -636,7 +636,6 @@ ScriptedImporter:
     400628: first_jenny_v003_ASSEMBLY/first_jenny_v003_ASSEMBLY/crv_UnityLayer_49_mesh_012/crv_UnityLayer_49_mesh_012Shape/Transform
     400630: first_jenny_v003_ASSEMBLY/first_jenny_v003_ASSEMBLY/crv_UnityLayer_50_mesh_012/Transform
     400632: first_jenny_v003_ASSEMBLY/first_jenny_v003_ASSEMBLY/crv_UnityLayer_50_mesh_012/crv_UnityLayer_50_mesh_012Shape/Transform
-    2000000: first_jenny_v003_ASSEMBLY/first_jenny_v003_ASSEMBLY/Camera/CameraShape/Camera
     2300000: first_jenny_v003_ASSEMBLY/first_jenny_v003_ASSEMBLY/crv_GP_Layer_0_mesh_001/crv_GP_Layer_0_mesh_001Shape/MeshRenderer
     2300002: first_jenny_v003_ASSEMBLY/first_jenny_v003_ASSEMBLY/crv_GP_Layer_0_mesh_099/crv_GP_Layer_0_mesh_099Shape/MeshRenderer
     2300004: first_jenny_v003_ASSEMBLY/first_jenny_v003_ASSEMBLY/crv_GP_Layer_1_mesh_001/crv_GP_Layer_1_mesh_001Shape/MeshRenderer
@@ -1131,7 +1130,7 @@ ScriptedImporter:
     importLinePolygon: 1
     importTrianglePolygon: 1
     importXform: 1
-    importCameras: 1
+    importCameras: 0
     importMeshes: 1
     importPoints: 1
     importVisibility: 1
